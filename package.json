@@ -1,0 +1,44 @@
+{
+  "name": "generator-ng-modules",
+  "version": "1.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelcoxokc/generator-ng-modules"
+  },
+  "author": "Joel Cox (https://github.com/joelcoxokc)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.17.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.10.2",
+    "grunt-release": "^0.7.0",
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/joelcoxokc/generator-ng-modules/issues"
+  },
+  "homepage": "https://github.com/joelcoxokc/generator-ng-modules",
+  "directories": {
+    "test": "test"
+  }
+}
