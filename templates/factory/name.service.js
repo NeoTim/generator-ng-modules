@@ -1,5 +1,4 @@
-(function(){
-
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -20,6 +19,5 @@
     function someMethod() {
       return meaningOfLife;
     }
-  };
-
+  }
 }).call(this);

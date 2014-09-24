@@ -1,10 +1,15 @@
-'use strict';
+;(function(){
+  'use strict';
+  angular
+    .module('<%= scriptAppName %>')
+    .config( <%= classedName %> );
 
-angular.module('<%= scriptAppName %>')
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('<%= route %>', {
-        templateUrl: '<%= htmlUrl %>',
-        controller: '<%= classedName %>Ctrl'
-      });
-  });
+    <%= classedName %>.$inject = ['$routeProvider'];
+    function <%= classedName %>($routeProvider) {
+      $routeProvider
+        .when('<%= route %>', {
+          templateUrl: '<%= htmlUrl %>',
+          controller: '<%= classedName %>Ctrl'
+        });
+    }
+}).call(this);

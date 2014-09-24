@@ -1,5 +1,4 @@
-(function(){
-
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -13,6 +12,5 @@
         templateUrl: '<%= htmlUrl %>',
         controller: '<%= classedName %>Ctrl'
       });
-  };
-
+  }
 }).call(this);

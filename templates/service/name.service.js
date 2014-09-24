@@ -1,5 +1,4 @@
-(function(){
-
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -8,6 +7,5 @@
   <%= classedName %>.$inject = [<%= injected %>];
   function <%= cameledName %>(<%= providers %>){
     // AngularJS will instantiate a singleton by calling "new" on this function
-  };
-
+  }
 }).call(this);

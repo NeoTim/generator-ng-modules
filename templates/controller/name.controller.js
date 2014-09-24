@@ -1,4 +1,4 @@
-(function(){
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -9,6 +9,6 @@
 
   function <%= classedName %>Ctrl(<%= providers %>) {
     $scope.message = 'Hello';
-  };
+  }
 
 }).call(this);

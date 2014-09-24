@@ -1,5 +1,4 @@
-(function(){
-
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -26,5 +25,5 @@
     this.$get = function () {
       return new Greeter();
     };
-  };
+  }
 }).call(this);

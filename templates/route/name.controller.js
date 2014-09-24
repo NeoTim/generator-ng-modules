@@ -1,5 +1,4 @@
-(function(){
-
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -8,6 +7,5 @@
   <%= classedName %>Ctrl.$inject = ['$scope'];
   function <%= classedName %>Ctrl($scope) {
     $scope.message = 'Hello';
-  };
-
+  }
 }).call(this);

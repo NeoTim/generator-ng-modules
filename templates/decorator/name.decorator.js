@@ -1,4 +1,4 @@
-(function(){
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -12,6 +12,6 @@
       return $delegate;
     });
 
-  };
+  }
 
 }).call(this);

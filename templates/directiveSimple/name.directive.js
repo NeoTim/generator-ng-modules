@@ -1,4 +1,4 @@
-(function(){
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -17,6 +17,6 @@
     function link(scope, element, attrs) {
       element.text('this is the <%= cameledName %> directive');
     }
-  };
+  }
 
 }).call(this);

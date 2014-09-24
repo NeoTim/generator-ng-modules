@@ -1,5 +1,4 @@
-(function(){
-
+;(function(){
   'use strict';
   angular
     .module('<%= scriptAppName %>')
@@ -11,6 +10,5 @@
       return '<%= cameledName %> filter: ' + input;
     };
 
-  };
-
+  }
 }).call(this);
